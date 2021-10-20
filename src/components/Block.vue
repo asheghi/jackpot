@@ -6,14 +6,14 @@
      </div>
     </div>
     <div class="rolling-motion rolling " v-if="rolling" :class="rolling ? 'rolling':''">
-      <div v-for="index in 120">
+      <div v-for="index in 120" :key="index">
         {{symbols[index % symbols.length]}}
       </div>
     </div>
   </div>
 </template>
 <script>
-import { symbols } from '../lib/game.js';
+import { symbols } from '../lib/game';
 
 export default {
   name: 'Block',

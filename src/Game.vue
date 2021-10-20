@@ -72,7 +72,6 @@ export default {
       }
     };
     this.$refs['cash-out'].onmouseout = () => {
-      console.log('onMouseLeave');
       this.disableCachOut = false;
     };
   },
@@ -152,6 +151,9 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh;
 
   .text-center {
     text-align: center;
