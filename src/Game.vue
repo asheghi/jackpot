@@ -39,7 +39,7 @@
     <teleport to="body" v-if="cashOut">
       <div class="cash-out">
         <h1>
-          $$$ Get Your Price $$$
+          $$$ Get Your Prize $$$
         </h1>
       </div>
     </teleport>
